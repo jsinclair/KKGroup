@@ -1,0 +1,5 @@
+included:
+  - KKGroupDemo
+  
+excluded:
+  - Pods
