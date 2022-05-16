@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2243C3252832585300ABB19C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3242832585300ABB19C /* MenuView.swift */; };
+		2243C3382832D5E000ABB19C /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C32D2832D5E000ABB19C /* Lato-Thin.ttf */; };
+		2243C3392832D5E000ABB19C /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C32E2832D5E000ABB19C /* Lato-BlackItalic.ttf */; };
+		2243C33A2832D5E000ABB19C /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C32F2832D5E000ABB19C /* BebasNeue-Regular.ttf */; };
+		2243C33B2832D5E000ABB19C /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3302832D5E000ABB19C /* Lato-ThinItalic.ttf */; };
+		2243C33C2832D5E100ABB19C /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3312832D5E000ABB19C /* Lato-LightItalic.ttf */; };
+		2243C33D2832D5E100ABB19C /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3322832D5E000ABB19C /* Lato-Italic.ttf */; };
+		2243C33E2832D5E100ABB19C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3332832D5E000ABB19C /* Lato-Bold.ttf */; };
+		2243C33F2832D5E100ABB19C /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3342832D5E000ABB19C /* Lato-Black.ttf */; };
+		2243C3402832D5E100ABB19C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3352832D5E000ABB19C /* Lato-Regular.ttf */; };
+		2243C3412832D5E100ABB19C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3362832D5E000ABB19C /* Lato-Light.ttf */; };
+		2243C3422832D5E100ABB19C /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3372832D5E000ABB19C /* Lato-BoldItalic.ttf */; };
 		22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925144282E5354000284DB /* KKGroupDemoApp.swift */; };
 		22925147282E5354000284DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* ContentView.swift */; };
 		22925149282E5356000284DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22925148282E5356000284DB /* Assets.xcassets */; };
@@ -31,6 +42,18 @@
 /* Begin PBXFileReference section */
 		2193B4D54C3E49DE704F0F97 /* Pods-KKGroupDemo-KKGroupDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGroupDemo-KKGroupDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-KKGroupDemo-KKGroupDemoUITests/Pods-KKGroupDemo-KKGroupDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2243C3242832585300ABB19C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2243C32B2832C96E00ABB19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2243C32D2832D5E000ABB19C /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		2243C32E2832D5E000ABB19C /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2243C32F2832D5E000ABB19C /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		2243C3302832D5E000ABB19C /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2243C3312832D5E000ABB19C /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		2243C3322832D5E000ABB19C /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		2243C3332832D5E000ABB19C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		2243C3342832D5E000ABB19C /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		2243C3352832D5E000ABB19C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		2243C3362832D5E000ABB19C /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		2243C3372832D5E000ABB19C /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
 		22925141282E5354000284DB /* KKGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925144282E5354000284DB /* KKGroupDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoApp.swift; sourceTree = "<group>"; };
 		22925146282E5354000284DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2243C3262832C85300ABB19C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2243C32F2832D5E000ABB19C /* BebasNeue-Regular.ttf */,
+				2243C3342832D5E000ABB19C /* Lato-Black.ttf */,
+				2243C32E2832D5E000ABB19C /* Lato-BlackItalic.ttf */,
+				2243C3332832D5E000ABB19C /* Lato-Bold.ttf */,
+				2243C3372832D5E000ABB19C /* Lato-BoldItalic.ttf */,
+				2243C3322832D5E000ABB19C /* Lato-Italic.ttf */,
+				2243C3362832D5E000ABB19C /* Lato-Light.ttf */,
+				2243C3312832D5E000ABB19C /* Lato-LightItalic.ttf */,
+				2243C3352832D5E000ABB19C /* Lato-Regular.ttf */,
+				2243C32D2832D5E000ABB19C /* Lato-Thin.ttf */,
+				2243C3302832D5E000ABB19C /* Lato-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		22925138282E5354000284DB = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 		22925143282E5354000284DB /* KKGroupDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2243C32B2832C96E00ABB19C /* Info.plist */,
+				2243C3262832C85300ABB19C /* Fonts */,
 				22925144282E5354000284DB /* KKGroupDemoApp.swift */,
 				22925146282E5354000284DB /* ContentView.swift */,
 				2243C3242832585300ABB19C /* MenuView.swift */,
@@ -226,7 +269,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2292522E2831BE98000284DB /* Colors.xcassets in Resources */,
+				2243C3412832D5E100ABB19C /* Lato-Light.ttf in Resources */,
+				2243C33E2832D5E100ABB19C /* Lato-Bold.ttf in Resources */,
+				2243C33B2832D5E000ABB19C /* Lato-ThinItalic.ttf in Resources */,
+				2243C3382832D5E000ABB19C /* Lato-Thin.ttf in Resources */,
+				2243C3422832D5E100ABB19C /* Lato-BoldItalic.ttf in Resources */,
+				2243C33C2832D5E100ABB19C /* Lato-LightItalic.ttf in Resources */,
+				2243C33A2832D5E000ABB19C /* BebasNeue-Regular.ttf in Resources */,
+				2243C33F2832D5E100ABB19C /* Lato-Black.ttf in Resources */,
+				2243C3402832D5E100ABB19C /* Lato-Regular.ttf in Resources */,
+				2243C3392832D5E000ABB19C /* Lato-BlackItalic.ttf in Resources */,
 				2292514C282E5356000284DB /* Preview Assets.xcassets in Resources */,
+				2243C33D2832D5E100ABB19C /* Lato-Italic.ttf in Resources */,
 				22925149282E5356000284DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +515,7 @@
 				DEVELOPMENT_TEAM = TS456HP59H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KKGroupDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +546,7 @@
 				DEVELOPMENT_TEAM = TS456HP59H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KKGroupDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

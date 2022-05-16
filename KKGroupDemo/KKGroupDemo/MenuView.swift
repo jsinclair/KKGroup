@@ -22,8 +22,8 @@ struct MenuView: View {
                     .padding(.leading)
 
                 VStack(alignment: .leading) {
-                    Text("ESSEXLAD").font(.headline).bold()
-                    Text("View and edit profile").font(.caption)
+                    Text("ESSEXLAD").font(Font.custom("BebasNeue", size: 31))
+                    Text("View and edit profile").font(Font.custom("Lato", size: 14))
                 }
 
                 Spacer()
@@ -47,9 +47,9 @@ struct MenuView: View {
                     HStack {
                         VStack(alignment: .leading) {
                             Text("GET VERIFIED")
-                                .font(.title)
+                                .font(Font.custom("BebasNeue", size: 40))
                             Text("Become a trusted member of the kommunity and start interacting")
-                                .font(.caption)
+                                .font(Font.custom("Lato", size: 14))
                             Button(action: {
 
                             }, label: {
@@ -64,6 +64,7 @@ struct MenuView: View {
                                     HStack {
                                         Image(systemName: "exclamationmark.triangle.fill")
                                         Text("Verify now")
+                                            .font(Font.custom("Lato", size: 14))
                                             .bold()
                                     }
                                     .foregroundColor(.white)
@@ -105,9 +106,9 @@ struct MenuView: View {
 
                             VStack(alignment: .leading) {
                                 Text("COMPLETE YOUR PROFILE")
-                                    .font(.title)
+                                    .font(Font.custom("BebasNeue", size: 36))
                                 Text("Take a few steps to show the kommunity who you really are")
-                                    .font(.caption)
+                                    .font(Font.custom("Lato", size: 14))
                             }
 
                             Spacer()
@@ -118,7 +119,7 @@ struct MenuView: View {
                         }, label: {
                             Spacer()
                             Text("Let's get it done")
-                                .bold()
+                                .font(Font.custom("Lato", size: 14)).bold()
                             Spacer()
                         })
                         .foregroundColor(.white)
@@ -148,11 +149,11 @@ struct MenuView: View {
                                 Spacer()
                                 Text("EVENTS & E-TICKETS")
                                     .multilineTextAlignment(.leading)
-                                    .font(.title)
+                                    .font(Font.custom("BebasNeue", size: 40))
                                 Spacer()
                                 Text("Buy and access your party and workshop tickets")
                                     .multilineTextAlignment(.leading)
-                                    .font(.caption)
+                                    .font(Font.custom("Lato", size: 14))
                                 Spacer()
                             }
                             .padding()
@@ -186,7 +187,7 @@ struct MenuView: View {
             }
 
             // Options
-            VStack {
+            VStack(spacing: 8) {
                 OptionsItem(systemImage: "gearshape.fill", title: "ACCOUNT SETTINGS")
 
                 Divider()
@@ -196,7 +197,7 @@ struct MenuView: View {
                 Divider()
                     .padding(.bottom)
             }
-            .padding(.top)
+            .padding(.top, 8)
             .background(Rectangle()
                 .fill(Color.white)
                 .shadow(color: .gray,
@@ -233,8 +234,7 @@ struct OptionsItem: View {
                 }
                 .padding(.leading)
                 Text(title)
-                    .font(.title2)
-                    .bold()
+                    .font(Font.custom("BebasNeue", size: 32))
                     .foregroundColor(.black)
                 Spacer()
             }
