@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2243C3252832585300ABB19C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3242832585300ABB19C /* MenuView.swift */; };
 		22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925144282E5354000284DB /* KKGroupDemoApp.swift */; };
 		22925147282E5354000284DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* ContentView.swift */; };
 		22925149282E5356000284DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22925148282E5356000284DB /* Assets.xcassets */; };
 		2292514C282E5356000284DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292514B282E5356000284DB /* Preview Assets.xcassets */; };
 		22925156282E5356000284DB /* KKGroupDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925155282E5356000284DB /* KKGroupDemoTests.swift */; };
+		2292522E2831BE98000284DB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292522D2831BE98000284DB /* Colors.xcassets */; };
 		484FD214285869CB5A174D0D /* Pods_KKGroupDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A22CD38F57CE0C85A9A3E5 /* Pods_KKGroupDemo.framework */; };
 		F31CF856B7E38C3A14392898 /* Pods_KKGroupDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC30EB1905C60C00FAD79F92 /* Pods_KKGroupDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2193B4D54C3E49DE704F0F97 /* Pods-KKGroupDemo-KKGroupDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGroupDemo-KKGroupDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-KKGroupDemo-KKGroupDemoUITests/Pods-KKGroupDemo-KKGroupDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2243C3242832585300ABB19C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		22925141282E5354000284DB /* KKGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925144282E5354000284DB /* KKGroupDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoApp.swift; sourceTree = "<group>"; };
 		22925146282E5354000284DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		2292514B282E5356000284DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22925151282E5356000284DB /* KKGroupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKGroupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925155282E5356000284DB /* KKGroupDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoTests.swift; sourceTree = "<group>"; };
+		2292522D2831BE98000284DB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3D50207A86555AAF17708B74 /* Pods-KKGroupDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGroupDemoTests.release.xcconfig"; path = "Target Support Files/Pods-KKGroupDemoTests/Pods-KKGroupDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		57A22CD38F57CE0C85A9A3E5 /* Pods_KKGroupDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKGroupDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7203E5A6E24A0A146B728F9C /* Pods-KKGroupDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKGroupDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-KKGroupDemoTests/Pods-KKGroupDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,7 +94,9 @@
 			children = (
 				22925144282E5354000284DB /* KKGroupDemoApp.swift */,
 				22925146282E5354000284DB /* ContentView.swift */,
+				2243C3242832585300ABB19C /* MenuView.swift */,
 				22925148282E5356000284DB /* Assets.xcassets */,
+				2292522D2831BE98000284DB /* Colors.xcassets */,
 				2292514A282E5356000284DB /* Preview Content */,
 			);
 			path = KKGroupDemo;
@@ -219,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2292522E2831BE98000284DB /* Colors.xcassets in Resources */,
 				2292514C282E5356000284DB /* Preview Assets.xcassets in Resources */,
 				22925149282E5356000284DB /* Assets.xcassets in Resources */,
 			);
@@ -304,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22925147282E5354000284DB /* ContentView.swift in Sources */,
+				2243C3252832585300ABB19C /* MenuView.swift in Sources */,
 				22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
