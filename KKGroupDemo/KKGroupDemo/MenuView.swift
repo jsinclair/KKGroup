@@ -81,14 +81,14 @@ struct MenuView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: 80, height: 150)
-                                .offset(x: -40)
+                                .offset(x: -44)
                         }
                         .zIndex(-1)
                     }
                     .background(
                         RoundedRectangle(cornerRadius: 25)
                             .foregroundColor(.white)
-                    ).clipped()
+                            .shadow(color: Color("AlmostWhite"), radius: 1))
 
                     // Complete profile
                     VStack {
@@ -136,8 +136,8 @@ struct MenuView: View {
                     .padding()
                     .background(
                         RoundedRectangle(cornerRadius: 25)
-                            .foregroundColor(.white))
-                    .clipped()
+                            .foregroundColor(.white)
+                            .shadow(color: Color("AlmostWhite"), radius: 1))
 
                     // Events
                     Button(action: {
@@ -177,8 +177,8 @@ struct MenuView: View {
                                             Color("EventsLight")
                                         ]),
                                         startPoint: .leading,
-                                        endPoint: .trailing)))
-                        .clipped()
+                                        endPoint: .trailing))
+                                    .shadow(color: Color("AlmostWhite"), radius: 1))
                     })
                     .padding(.top, 5)
                 }
