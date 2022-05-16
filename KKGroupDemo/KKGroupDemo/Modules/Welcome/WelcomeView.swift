@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WelcomeView.swift
 //  KKGroupDemo
 //
 //  Created by James Sinclair on 2022/05/13.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WelcomeView: View {
     @State private var isPresented = false
 
     var body: some View {
@@ -39,9 +39,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView().previewDevice("iPhone SE (1st generation)")
-            ContentView().previewDevice("iPhone 8")
-            ContentView().previewDevice("iPhone 13 Pro Max")
+            WelcomeView().previewDevice("iPhone SE (1st generation)")
+            WelcomeView().previewDevice("iPhone 8")
+            WelcomeView().previewDevice("iPhone 13 Pro Max")
         }
     }
 }

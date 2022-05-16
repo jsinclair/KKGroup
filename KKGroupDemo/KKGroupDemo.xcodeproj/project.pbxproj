@@ -20,7 +20,7 @@
 		2243C3412832D5E100ABB19C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3362832D5E000ABB19C /* Lato-Light.ttf */; };
 		2243C3422832D5E100ABB19C /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3372832D5E000ABB19C /* Lato-BoldItalic.ttf */; };
 		22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925144282E5354000284DB /* KKGroupDemoApp.swift */; };
-		22925147282E5354000284DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* ContentView.swift */; };
+		22925147282E5354000284DB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* WelcomeView.swift */; };
 		22925149282E5356000284DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22925148282E5356000284DB /* Assets.xcassets */; };
 		2292514C282E5356000284DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292514B282E5356000284DB /* Preview Assets.xcassets */; };
 		22925156282E5356000284DB /* KKGroupDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925155282E5356000284DB /* KKGroupDemoTests.swift */; };
@@ -56,7 +56,7 @@
 		2243C3372832D5E000ABB19C /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
 		22925141282E5354000284DB /* KKGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925144282E5354000284DB /* KKGroupDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoApp.swift; sourceTree = "<group>"; };
-		22925146282E5354000284DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22925146282E5354000284DB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		22925148282E5356000284DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2292514B282E5356000284DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22925151282E5356000284DB /* KKGroupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKGroupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +110,41 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		2243C3432832ED1B00ABB19C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2243C3262832C85300ABB19C /* Fonts */,
+				22925148282E5356000284DB /* Assets.xcassets */,
+				2292522D2831BE98000284DB /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2243C3442832ED3100ABB19C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2243C3462832ED4400ABB19C /* Welcome */,
+				2243C3452832ED3A00ABB19C /* Menu */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2243C3452832ED3A00ABB19C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2243C3242832585300ABB19C /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2243C3462832ED4400ABB19C /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				22925146282E5354000284DB /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		22925138282E5354000284DB = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +168,10 @@
 		22925143282E5354000284DB /* KKGroupDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2243C32B2832C96E00ABB19C /* Info.plist */,
-				2243C3262832C85300ABB19C /* Fonts */,
+				2243C3442832ED3100ABB19C /* Modules */,
+				2243C3432832ED1B00ABB19C /* Resources */,
 				22925144282E5354000284DB /* KKGroupDemoApp.swift */,
-				22925146282E5354000284DB /* ContentView.swift */,
-				2243C3242832585300ABB19C /* MenuView.swift */,
-				22925148282E5356000284DB /* Assets.xcassets */,
-				2292522D2831BE98000284DB /* Colors.xcassets */,
+				2243C32B2832C96E00ABB19C /* Info.plist */,
 				2292514A282E5356000284DB /* Preview Content */,
 			);
 			path = KKGroupDemo;
@@ -364,7 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22925147282E5354000284DB /* ContentView.swift in Sources */,
+				22925147282E5354000284DB /* WelcomeView.swift in Sources */,
 				2243C3252832585300ABB19C /* MenuView.swift in Sources */,
 				22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */,
 			);

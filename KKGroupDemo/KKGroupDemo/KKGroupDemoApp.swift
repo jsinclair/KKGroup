@@ -12,7 +12,7 @@ import UIKit
 struct KKGroupDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }
