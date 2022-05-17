@@ -40,14 +40,10 @@ struct CompleteProfileView: View {
                 }
 
                 Button(action: {
-                    withAnimation {
-                        completing = true
-                        Task {
-                            await profileViewModel.completeProfle()
-                            withAnimation {
-                                completing = false
-                            }
-                        }
+                    completing = true
+                    Task {
+                        await profileViewModel.completeProfle()
+                        completing = false
                     }
                 }, label: {
                     Spacer()
