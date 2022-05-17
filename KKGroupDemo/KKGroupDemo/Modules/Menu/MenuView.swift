@@ -10,6 +10,8 @@ import SwiftUI
 struct MenuView: View {
     @Environment(\.presentationMode) var presentationMode
 
+    @ObservedObject var profileViewModel = ProfileViewModel(model: ConcreteCompleteProfileModel())
+
     var body: some View {
         VStack(spacing: 0) {
 
@@ -99,15 +101,15 @@ struct MenuView: View {
                                 .aspectRatio(contentMode: .fit)
                                 .clipShape(Circle())
                                 .background(Circle().foregroundColor(.white))
-                                .overlay(Circle().stroke(.red, lineWidth: 5))
+                                .overlay(Circle().stroke(profileViewModel.profilePicBorderColor, lineWidth: 5))
                                 .frame(minWidth: 50, idealWidth: 50, maxWidth: 80)
 
                             Spacer()
 
                             VStack(alignment: .leading) {
-                                Text("COMPLETE YOUR PROFILE")
+                                Text(profileViewModel.title)
                                     .font(Font.custom("BebasNeue", size: 36))
-                                Text("Take a few steps to show the kommunity who you really are")
+                                Text(profileViewModel.message)
                                     .font(Font.custom("Lato", size: 14))
                             }
 
@@ -115,10 +117,12 @@ struct MenuView: View {
                         }
 
                         Button(action: {
-
+                            Task {
+                                await profileViewModel.completeProfle()
+                            }
                         }, label: {
                             Spacer()
-                            Text("Let's get it done")
+                            Text(profileViewModel.buttonText)
                                 .font(Font.custom("Lato", size: 14)).bold()
                             Spacer()
                         })
@@ -127,10 +131,7 @@ struct MenuView: View {
                         .background(RoundedRectangle(cornerRadius: 25)
                             .fill(
                                 LinearGradient(
-                                    gradient: Gradient(colors: [
-                                        Color("DarkBlue"),
-                                        Color("LightBlue")
-                                    ]),
+                                    gradient: Gradient(colors: profileViewModel.doItButtonGradientColors),
                                     startPoint: .leading,
                                     endPoint: .trailing)))
                     }
@@ -164,8 +165,8 @@ struct MenuView: View {
                                 Image("Events")
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
-                                    .frame(width: 90, height: 190)
-                                    .offset(x: -60)
+                                    .frame(width: 90, height: 200)
+                                    .offset(x: -66)
                             }
                             .zIndex(-1)
                         }
@@ -206,39 +207,6 @@ struct MenuView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("BackgroundColor"))
         .ignoresSafeArea(.all, edges: .bottom)
-    }
-}
-
-struct OptionsItem: View {
-    let systemImage: String
-    let title: String
-
-    var body: some View {
-        Button(action: {
-
-        }, label: {
-            HStack {
-                ZStack {
-                    Circle()
-                        .foregroundColor(Color("BackgroundColor"))
-                        .overlay(Circle().stroke(Color("LightGray"), lineWidth: 1))
-                        .frame(width: 40, height: 40)
-                    LinearGradient(gradient: Gradient(colors: [Color("LightGray"), Color("DarkGray")]),
-                                   startPoint: .top,
-                                   endPoint: .bottom)
-                    .mask(Image(systemName: systemImage)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                    ).frame(width: 20, height: 20, alignment: .center)
-
-                }
-                .padding(.leading)
-                Text(title)
-                    .font(Font.custom("BebasNeue", size: 32))
-                    .foregroundColor(.black)
-                Spacer()
-            }
-        })
     }
 }
 
