@@ -24,6 +24,9 @@
 		2243C34D2832F2C300ABB19C /* ProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C34C2832F2C300ABB19C /* ProfileModels.swift */; };
 		2243C34F2832F36900ABB19C /* CompleteProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C34E2832F36900ABB19C /* CompleteProfileModel.swift */; };
 		2243C351283391BD00ABB19C /* ProfileViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C350283391BD00ABB19C /* ProfileViewModelTests.swift */; };
+		2243C3542833F72A00ABB19C /* EventsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3532833F72A00ABB19C /* EventsButton.swift */; };
+		2243C3562833F83E00ABB19C /* CompleteProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3552833F83E00ABB19C /* CompleteProfileView.swift */; };
+		2243C3582833F8FB00ABB19C /* GetVerifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */; };
 		22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925144282E5354000284DB /* KKGroupDemoApp.swift */; };
 		22925147282E5354000284DB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* WelcomeView.swift */; };
 		22925149282E5356000284DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22925148282E5356000284DB /* Assets.xcassets */; };
@@ -63,6 +66,9 @@
 		2243C34C2832F2C300ABB19C /* ProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModels.swift; sourceTree = "<group>"; };
 		2243C34E2832F36900ABB19C /* CompleteProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileModel.swift; sourceTree = "<group>"; };
 		2243C350283391BD00ABB19C /* ProfileViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModelTests.swift; sourceTree = "<group>"; };
+		2243C3532833F72A00ABB19C /* EventsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsButton.swift; sourceTree = "<group>"; };
+		2243C3552833F83E00ABB19C /* CompleteProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileView.swift; sourceTree = "<group>"; };
+		2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVerifiedView.swift; sourceTree = "<group>"; };
 		22925141282E5354000284DB /* KKGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925144282E5354000284DB /* KKGroupDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoApp.swift; sourceTree = "<group>"; };
 		22925146282E5354000284DB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -140,9 +146,9 @@
 		2243C3452832ED3A00ABB19C /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				2243C3522833F6DC00ABB19C /* Views */,
 				2243C34B2832F02D00ABB19C /* Profile */,
 				2243C3242832585300ABB19C /* MenuView.swift */,
-				2243C3472832EE4E00ABB19C /* OptionsItem.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -163,6 +169,17 @@
 				2243C34C2832F2C300ABB19C /* ProfileModels.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		2243C3522833F6DC00ABB19C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2243C3472832EE4E00ABB19C /* OptionsItem.swift */,
+				2243C3532833F72A00ABB19C /* EventsButton.swift */,
+				2243C3552833F83E00ABB19C /* CompleteProfileView.swift */,
+				2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		22925138282E5354000284DB = {
@@ -422,7 +439,10 @@
 				2243C34D2832F2C300ABB19C /* ProfileModels.swift in Sources */,
 				2243C34F2832F36900ABB19C /* CompleteProfileModel.swift in Sources */,
 				2243C34A2832EFEE00ABB19C /* ProfileViewModel.swift in Sources */,
+				2243C3542833F72A00ABB19C /* EventsButton.swift in Sources */,
+				2243C3562833F83E00ABB19C /* CompleteProfileView.swift in Sources */,
 				2243C3482832EE4E00ABB19C /* OptionsItem.swift in Sources */,
+				2243C3582833F8FB00ABB19C /* GetVerifiedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
