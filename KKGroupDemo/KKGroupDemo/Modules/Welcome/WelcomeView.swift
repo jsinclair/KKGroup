@@ -30,8 +30,8 @@ struct WelcomeView: View {
             .padding(.bottom)
             .background(Rectangle()
                 .fill(Color.white)
-                .shadow(color: .gray,
-                        radius: 5))
+                .shadow(color: Color("AlmostWhite"),
+                        radius: 4))
         }.ignoresSafeArea(.all, edges: .bottom)
     }
 }

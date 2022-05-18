@@ -12,9 +12,9 @@ struct GetVerifiedView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text("GET VERIFIED")
-                    .font(Font.custom("BebasNeue", size: 40))
+                    .font(Font.custom("BebasNeue", size: 39))
                 Text("Become a trusted member of the kommunity and start interacting")
-                    .font(Font.custom("Lato", size: 14))
+                    .font(Font.custom("Lato", size: 13))
                 Button(action: {
 
                 }, label: {

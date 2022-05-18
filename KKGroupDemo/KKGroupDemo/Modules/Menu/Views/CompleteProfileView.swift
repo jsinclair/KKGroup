@@ -30,9 +30,9 @@ struct CompleteProfileView: View {
                     HStack {
                         VStack(alignment: .leading) {
                             Text(profileViewModel.title)
-                                .font(Font.custom("BebasNeue", size: 36))
+                                .font(Font.custom("BebasNeue", size: 29))
                             Text(profileViewModel.message)
-                                .font(Font.custom("Lato", size: 14))
+                                .font(Font.custom("Lato", size: 13))
                         }
 
                         Spacer()
@@ -48,7 +48,7 @@ struct CompleteProfileView: View {
                 }, label: {
                     Spacer()
                     Text(profileViewModel.buttonText)
-                        .font(Font.custom("Lato", size: 14)).bold()
+                        .font(Font.custom("Lato", size: 16)).bold()
                     Spacer()
                 })
                 .foregroundColor(.white)

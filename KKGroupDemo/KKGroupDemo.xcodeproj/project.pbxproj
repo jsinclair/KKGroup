@@ -27,6 +27,7 @@
 		2243C3542833F72A00ABB19C /* EventsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3532833F72A00ABB19C /* EventsButton.swift */; };
 		2243C3562833F83E00ABB19C /* CompleteProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3552833F83E00ABB19C /* CompleteProfileView.swift */; };
 		2243C3582833F8FB00ABB19C /* GetVerifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */; };
+		2243C35C2834F7B100ABB19C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C35B2834F7B100ABB19C /* HeaderView.swift */; };
 		22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925144282E5354000284DB /* KKGroupDemoApp.swift */; };
 		22925147282E5354000284DB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* WelcomeView.swift */; };
 		22925149282E5356000284DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22925148282E5356000284DB /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		2243C3532833F72A00ABB19C /* EventsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsButton.swift; sourceTree = "<group>"; };
 		2243C3552833F83E00ABB19C /* CompleteProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileView.swift; sourceTree = "<group>"; };
 		2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVerifiedView.swift; sourceTree = "<group>"; };
+		2243C35B2834F7B100ABB19C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		22925141282E5354000284DB /* KKGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925144282E5354000284DB /* KKGroupDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoApp.swift; sourceTree = "<group>"; };
 		22925146282E5354000284DB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				2243C3532833F72A00ABB19C /* EventsButton.swift */,
 				2243C3552833F83E00ABB19C /* CompleteProfileView.swift */,
 				2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */,
+				2243C35B2834F7B100ABB19C /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				2243C34F2832F36900ABB19C /* CompleteProfileModel.swift in Sources */,
 				2243C34A2832EFEE00ABB19C /* ProfileViewModel.swift in Sources */,
 				2243C3542833F72A00ABB19C /* EventsButton.swift in Sources */,
+				2243C35C2834F7B100ABB19C /* HeaderView.swift in Sources */,
 				2243C3562833F83E00ABB19C /* CompleteProfileView.swift in Sources */,
 				2243C3482832EE4E00ABB19C /* OptionsItem.swift in Sources */,
 				2243C3582833F8FB00ABB19C /* GetVerifiedView.swift in Sources */,

@@ -17,11 +17,11 @@ struct EventsButton: View {
                     Spacer()
                     Text("EVENTS & E-TICKETS")
                         .multilineTextAlignment(.leading)
-                        .font(Font.custom("BebasNeue", size: 40))
+                        .font(Font.custom("BebasNeue", size: 39))
                     Spacer()
                     Text("Buy and access your party and workshop tickets")
                         .multilineTextAlignment(.leading)
-                        .font(Font.custom("Lato", size: 14))
+                        .font(Font.custom("Lato", size: 13))
                     Spacer()
                 }
                 .padding()
