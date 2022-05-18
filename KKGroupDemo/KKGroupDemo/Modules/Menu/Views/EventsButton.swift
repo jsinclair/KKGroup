@@ -55,6 +55,10 @@ struct EventsButton: View {
 struct EventsButton_Previews: PreviewProvider {
     static var previews: some View {
         EventsButton()
-            .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/350.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/))
+            .previewLayout(
+                .fixed(
+                    width: /*@START_MENU_TOKEN@*/350.0/*@END_MENU_TOKEN@*/,
+                    height: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/)
+            )
     }
 }

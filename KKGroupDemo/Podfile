@@ -7,13 +7,10 @@ target 'KKGroupDemo' do
 
   # Pods for KKGroupDemo
   pod 'SwiftLint'
+  pod 'lottie-ios'
 
   target 'KKGroupDemoTests' do
     inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'KKGroupDemoUITests' do
     # Pods for testing
   end
 

@@ -12,8 +12,18 @@ struct WelcomeView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Color("BackgroundColor")
-                .ignoresSafeArea()
+            ZStack(alignment: .bottom) {
+                Color("BackgroundColor")
+                    .ignoresSafeArea()
+
+                VStack {
+                    LottieView(lottieFile: "39755-handwritten-welcome")
+                        .frame(width: 300, height: 100)
+
+                    LottieView(lottieFile: "4746-welcome-screen")
+                        .frame(width: 300, height: 300)
+                }
+            }
 
             HStack {
                 Spacer()

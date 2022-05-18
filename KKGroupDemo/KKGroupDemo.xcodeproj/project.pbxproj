@@ -28,6 +28,9 @@
 		2243C3562833F83E00ABB19C /* CompleteProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3552833F83E00ABB19C /* CompleteProfileView.swift */; };
 		2243C3582833F8FB00ABB19C /* GetVerifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */; };
 		2243C35C2834F7B100ABB19C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C35B2834F7B100ABB19C /* HeaderView.swift */; };
+		2243C36028351DFD00ABB19C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243C35F28351DFD00ABB19C /* LottieView.swift */; };
+		2243C36228351E7300ABB19C /* 4746-welcome-screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2243C36128351E7300ABB19C /* 4746-welcome-screen.json */; };
+		2243C3662835209700ABB19C /* 39755-handwritten-welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 2243C3652835209700ABB19C /* 39755-handwritten-welcome.json */; };
 		22925145282E5354000284DB /* KKGroupDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925144282E5354000284DB /* KKGroupDemoApp.swift */; };
 		22925147282E5354000284DB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22925146282E5354000284DB /* WelcomeView.swift */; };
 		22925149282E5356000284DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22925148282E5356000284DB /* Assets.xcassets */; };
@@ -71,6 +74,9 @@
 		2243C3552833F83E00ABB19C /* CompleteProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileView.swift; sourceTree = "<group>"; };
 		2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVerifiedView.swift; sourceTree = "<group>"; };
 		2243C35B2834F7B100ABB19C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2243C35F28351DFD00ABB19C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		2243C36128351E7300ABB19C /* 4746-welcome-screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4746-welcome-screen.json"; sourceTree = "<group>"; };
+		2243C3652835209700ABB19C /* 39755-handwritten-welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "39755-handwritten-welcome.json"; sourceTree = "<group>"; };
 		22925141282E5354000284DB /* KKGroupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGroupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22925144282E5354000284DB /* KKGroupDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKGroupDemoApp.swift; sourceTree = "<group>"; };
 		22925146282E5354000284DB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 		2243C3432832ED1B00ABB19C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2243C35D28351DE900ABB19C /* Lottie */,
 				2243C3262832C85300ABB19C /* Fonts */,
 				22925148282E5356000284DB /* Assets.xcassets */,
 				2292522D2831BE98000284DB /* Colors.xcassets */,
@@ -158,6 +165,7 @@
 		2243C3462832ED4400ABB19C /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				2243C35E28351DF200ABB19C /* Views */,
 				22925146282E5354000284DB /* WelcomeView.swift */,
 			);
 			path = Welcome;
@@ -181,6 +189,23 @@
 				2243C3552833F83E00ABB19C /* CompleteProfileView.swift */,
 				2243C3572833F8FB00ABB19C /* GetVerifiedView.swift */,
 				2243C35B2834F7B100ABB19C /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2243C35D28351DE900ABB19C /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				2243C3652835209700ABB19C /* 39755-handwritten-welcome.json */,
+				2243C36128351E7300ABB19C /* 4746-welcome-screen.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		2243C35E28351DF200ABB19C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2243C35F28351DFD00ABB19C /* LottieView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +293,7 @@
 				2292513D282E5354000284DB /* Sources */,
 				2292513E282E5354000284DB /* Frameworks */,
 				2292513F282E5354000284DB /* Resources */,
+				809CEFE7798B9F67279011FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,8 +378,10 @@
 				2243C3402832D5E100ABB19C /* Lato-Regular.ttf in Resources */,
 				2243C3392832D5E000ABB19C /* Lato-BlackItalic.ttf in Resources */,
 				2292514C282E5356000284DB /* Preview Assets.xcassets in Resources */,
+				2243C3662835209700ABB19C /* 39755-handwritten-welcome.json in Resources */,
 				2243C33D2832D5E100ABB19C /* Lato-Italic.ttf in Resources */,
 				22925149282E5356000284DB /* Assets.xcassets in Resources */,
+				2243C36228351E7300ABB19C /* 4746-welcome-screen.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +435,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		809CEFE7798B9F67279011FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKGroupDemo/Pods-KKGroupDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKGroupDemo/Pods-KKGroupDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKGroupDemo/Pods-KKGroupDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EE01BA67954B83B49ACA2ADC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +492,7 @@
 				2243C3562833F83E00ABB19C /* CompleteProfileView.swift in Sources */,
 				2243C3482832EE4E00ABB19C /* OptionsItem.swift in Sources */,
 				2243C3582833F8FB00ABB19C /* GetVerifiedView.swift in Sources */,
+				2243C36028351DFD00ABB19C /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +645,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -630,6 +677,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
